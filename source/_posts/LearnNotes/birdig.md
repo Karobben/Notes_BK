@@ -29,6 +29,20 @@ Birds have three classes of antibody: **IgM** (the only class in all vertebrates
 
 ## Chicken
 
+The first avian genomic MHC map was the chicken minimal and essential one on chromosome 16. This map, spanning 92 kb and harboring 19 genes, was then extended to be 242 kb containing 46 genes[^Kaufman_J_99][^Shiina_T_07].
+
+[^Kaufman_J_99]: Kaufman J, Milne S, Göbel TW, Walker BA, Jacob JP, Auffray C, et al. The chicken B locus is a minimal essential major histocompatibility complex. Nature. 1999;401:923–5.
+[^Shiina_T_07]: Shiina T, Briles WE, Goto RM, Hosomichi K, Yanagiya K, Shimizu S, et al. Extended gene map reveals tripartite motif, C-type lectin, and Ig superfamily type genes within a subregion of the chicken MHC-B affecting infectious disease. J Immunol. 2007;178:7162–72.
+
+> [Chicken (Gallus gallus) IGH locus on chromosome 31](https://www.imgt.org/IMGTrepertoire/LocusGenes/locusdesc/chicken/IGH/Galgal_IGHdesc.html)
+> - The chicken (Gallus gallus) IGH locus is on chromosome 31. The orientation of the locus is reverse (REV).
+> - The chicken (Gallus gallus) IGH locus spans 116 kilobases (kb), from 10 kb upstream of the most 5' gene in the locus, IGHV1-83 (P), to 10 kb downstream of the most 3' gene in the locus, IGHJ (F). The Locus representation encompasses 120 kb.
+> - The chicken (Gallus gallus) IGH locus consists of 94 IGHV genes belonging to 1 IGHV subgroup, 4 IGHD belonging to 1 IGHD set, 1 IGHJ gene belonging to 1 IGHJ set and 3 IGHC genes.
+> - The IGHV genes span 97 kilobases (kb), the IGHD genes span 7251 bases (b) and the IGHJ gene span 12 kilobases (kb).
+> source: Imgt       
+
+https://www.imgt.org/ligmdb/view?id=IMGT000014
+
 The generation of antibody binding-site diversity is very well understood for the chicken: 
 - Parvari R, Avivi A, Lentner F, Ziv E, Tel-Or S, Burstein Y, et al. Chicken immunoglobulin gamma-heavy chains: limited VH gene repertoire, combinatorial diversification by D gene segments and evolution of the heavy chain locus. EMBO J. 1988;7:739–44.
 - Reynaud CA, Anquez V, Dahan A, Weill JC. A single rearrangement event generates most of the chicken immunoglobulin light chain diversity. Cell. 1985;40:283–91.
@@ -38,6 +52,22 @@ The generation of antibody binding-site diversity is very well understood for th
 
 
 ## Duck
+
+The newest Duck genome is available at BMC: [Jiaxiang Hu, et al; 2024](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-024-01817-0)[^Hu_J_2024]. The old one ZJU1.0[^Li_J_2021] has ([GCF_015476345.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_015476345.1/)) 33 chromosomes (not included sexual and mitochondira). For the SKLA1.0 ([GCA_037218355.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_037218355.1/)), it covers 40 chromosomes (included in Z chromosome). For the ZJU1.0, they used 115 SMRT cells were sequenced with PacBio RS II. In SJKA1.0, they integrated Nanopore, Bionano, and Hi-C data. It also contains a complete genomic map of the MHC.
+
+
+In E. W´ojcik and E. Smalec's work in 2017[^Wójcik_E_17], they described 1-13 autosomes. In there karyotyping analysis result, the got about 84 dots for Anas platyrhynchos.
+
+|![karyotype of Anas platyrhynchos](https://imgur.com/YLYWzF0.png)|
+|:-:|
+|[© E. W´ojcik; 2017](https://www.researchgate.net/publication/312024031_Constitutive_heterochromatin_in_chromosomes_of_duck_hybrids_and_goose_hybrids)|
+
+
+[^Wójcik_E_17]: [Wójcik E, Smalec E. Constitutive heterochromatin in chromosomes of duck hybrids and goose hybrids[J]. Poultry Science, 2017, 96(1): 18-26.
+](https://www.researchgate.net/publication/312024031_Constitutive_heterochromatin_in_chromosomes_of_duck_hybrids_and_goose_hybrids)
+
+[^Hu_J_2024]: Hu J, Song L, Ning M, et al. A new chromosome-scale duck genome shows a major histocompatibility complex with several expanded multigene families[J]. BMC biology, 2024, 22(1): 31.
+[^Li_J_2021]: Li J, Zhang J, Liu J, et al. A new duck genome reveals conserved and convergently evolved chromosome architectures of birds and mammals[J]. Gigascience, 2021, 10(1): giaa142.
 
 Anseriform birds (ducks and their relatives) are the closest relatives of the chickens which was well understood and be studied.
 

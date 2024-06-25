@@ -15,6 +15,11 @@ thumbnail: "https://imgur.com/WhX0s7Q.png"
 ---
 
 
+## trRosetta
+
+[^Anishchenko_I_2021]: Anishchenko I, Pellock S J, Chidyausiku T M, et al. De novo protein design by deep network hallucination[J]. Nature, 2021, 600(7889): 547-552.
+
+They inverted this network to generate new protein sequences from scratch, aiming to design proteins with structures and functions not found in nature.By conducting **Monte Carlo sampling** in sequence space and optimizing the predicted structural features, they managed to produce a variety of new protein sequences.
 
 ## RFdiffusion
 

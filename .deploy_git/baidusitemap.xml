@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://karobben.github.io/2024/06/24/Bioinfor/IgCaller/</loc>
+    <lastmod>2024-06-25</lastmod>
+  </url>
+  <url>
+    <loc>https://karobben.github.io/2024/06/21/Bioinfor/MUMmer/</loc>
+    <lastmod>2024-06-24</lastmod>
+  </url>
+  <url>
+    <loc>https://karobben.github.io/2024/06/17/Bioinfor/wholegenomesequencing/</loc>
+    <lastmod>2024-06-24</lastmod>
+  </url>
+  <url>
+    <loc>https://karobben.github.io/2020/07/28/Bioinfor/BioDB/</loc>
+    <lastmod>2024-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://karobben.github.io/2024/05/23/LearnNotes/birdig/</loc>
+    <lastmod>2024-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://karobben.github.io/2024/05/29/AI/protein3dml/</loc>
+    <lastmod>2024-06-01</lastmod>
+  </url>
+  <url>
+    <loc>https://karobben.github.io/2024/02/05/AI/ai-linear/</loc>
+    <lastmod>2024-06-01</lastmod>
+  </url>
+  <url>
     <loc>https://karobben.github.io/2024/02/07/AI/ai-perceptron/</loc>
     <lastmod>2024-06-01</lastmod>
   </url>
   <url>
     <loc>https://karobben.github.io/2024/02/18/AI/ai-multilayer/</loc>
-    <lastmod>2024-05-31</lastmod>
-  </url>
-  <url>
-    <loc>https://karobben.github.io/2024/05/29/AI/protein3dml/</loc>
     <lastmod>2024-05-31</lastmod>
   </url>
   <url>
@@ -21,16 +45,8 @@
     <lastmod>2024-05-29</lastmod>
   </url>
   <url>
-    <loc>https://karobben.github.io/2024/05/23/LearnNotes/birdig/</loc>
-    <lastmod>2024-05-24</lastmod>
-  </url>
-  <url>
     <loc>https://karobben.github.io/2022/09/25/Bioinfor/fq-aligner/</loc>
     <lastmod>2024-05-20</lastmod>
-  </url>
-  <url>
-    <loc>https://karobben.github.io/2024/02/05/LearnNotes/ai-linear/</loc>
-    <lastmod>2024-02-19</lastmod>
   </url>
   <url>
     <loc>https://karobben.github.io/2021/02/11/Blog/hexo_icarus/</loc>
@@ -2078,10 +2094,6 @@
   </url>
   <url>
     <loc>https://karobben.github.io/2020/06/26/Bioinfor/Apps/</loc>
-    <lastmod>2024-01-12</lastmod>
-  </url>
-  <url>
-    <loc>https://karobben.github.io/2020/07/28/Bioinfor/BioDB/</loc>
     <lastmod>2024-01-12</lastmod>
   </url>
   <url>

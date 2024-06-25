@@ -61,6 +61,64 @@ priority: 10000
 [NUCLEOSOME](ftp://ftp.ebi.ac.uk/pub/databases/nucleosomal_dna/) -- 数据库,收集实验测定的核小体数据,用于预测DNA中与组蛋白八聚体结合的位点.
 
 
+
+
+
+## Protein Database
+
+1. [PDB](https://www.rcsb.org/) (RCSB) (Protein Data Bank): 3D structure
+  - [SWISS-PROT](https://www.uniprot.org/help/downloads): 是对数据人工审读很严格的库。
+2. [Uniprot](https://www.uniprot.org/): UniProt is the world's leading high-quality, comprehensive and freely accessible resource of protein sequence and functional information.
+3. [Negatome](https://mips.helmholtz-muenchen.de/proj/ppi/negatome/): **Negative protein-protein interaction** database. 
+  The Negatome is a collection of protein and domain pairs which are unlikely engaged in direct physical interactions.
+4. [MMDB](http://www.ncbi.nlm.nih.gov/Structure/) 蛋白质分子模型数据库。
+    - **Conserved domains and protein classification**: Conserved domains are functional units within a protein that act as building blocks in molecular evolution and recombine in various arrangements to make proteins with different functions.
+    - **Macromolecular structures**: The 3D structures of biomolecules provide a wealth of information on their biological function and evolutionary relationships.
+5. [HOBACGEN](http://pbil.univ-lyon1.fr/databases/hobacgen.html) 数据库，包含按家族组织的所有细菌的蛋白质序列，有助于从各种细菌选取同源家族，作多序列联配和构建亲缘树。
+6. [BioMagResBank](http://www.bmrb.wisc.edu/) 简称BMRB，是关于多肽、蛋白质和核酸的核磁共振数据库。
+7. [PhosphoBase](http://phospho.elm.eu.org/), 磷酸化位点数据库。
+8. [InterPro](http://www.ebi.ac.uk/interpro/), 集成的蛋白质结构域和功能位点数据库。
+9. [Pfam](http://pfam.xfam.org/)
+10. [MolMovDB](http://bioinfo.mbb.yale.edu/MolMovDB/), 耶鲁大学的生物信息学研究室维护的分子运动数据库。
+11. [O-GLYCBASE](https://services.healthtech.dtu.dk/datasets/OglycBase/), 蛋白质糖基化位点数据库。
+12. [ORDB](https://medicine.yale.edu/biomedical-informatics-data-science/) 嗅觉受体蛋白质序列数据库。
+13. [CarbBank](https://ccrc.uga.edu/) 亦称CCSD，复杂碳水化合物结构数据库，通常与蛋白质结构数据库归在一起。
+14. [SCOP](http://scop.mrc-lmb.cam.ac.uk/scop/) 大分子结构模拟和药物设计生物信息分析
+
+### Expasy (SIB Swiss Institute of Bioinformatics)
+
+1. [PROSITE](https://prosite.expasy.org/), 由专家根据生物知识审编的SWISS-PROT蛋白质序列中有生物意义的位点、模式和轮廓的数据库。
+2. [ENZYME](https://enzyme.expasy.org/), 基于命名系统的酶数据库。
+http://www.expasy.ch/prosite/
+
+
+
+- [SMART](http://SMART.embl-heidelberg.de/) 是简单模块构架搜索工具的缩写。
+
+
+★ TMBase,跨膜蛋白数据库。
+ftp://ulrec3.unil.ch/pub/tmbase
+
+
+比较基因组学和蛋白质组学数据库:
+★COG直系同源聚类数据库。
+http://www.ncbi.nlm.nih.gov/COG/
+
+蛋白质组学相关信息分析
+SWISS-2DPAGE
+http://us.expasy.org/ch2d/
+SIENA-2DPAGE
+http://www.bio-mol.unisi.it/2d/2d.html
+Human 2D-PAGE Databases
+PROSITE
+http://us.expasy.org/prosite/
+PRINTS
+
+http://www.sanger.ac.uk/Software/Pfam/
+
+
+
+
 ## Transcriptional Factors
 
 
@@ -106,17 +164,10 @@ ftp://acad.fandm.edu/nar/
 ftp://ftp.ebi.ac.uk/pub/databases/RHdb
 
 
-★GDB,人类基因组数据库。
-http://www.gdb.org/
-ftp://ftp.gdb.org
 
 ★HuGeMap,人类基因遗传图谱和物理图谱的分布式集成数据库。
 ftp://ftp.ebi.ac.uk/pub/databases/RHdb/gm99.map
 
-
-人类基因组测序中心:
-★HUGO是人类基因组组织的缩写。
-http://hugo.gdb.org/
 
 
 ★英国Wellcome Trust是人类基因组计划的另一个主要资助者。
@@ -224,93 +275,6 @@ ftp://genome-ftp.stanford.edu/pub/arabidopsis
 ★ TAIR,拟南芥信息资源。
 http://www.arabidopsis.org/
 
-### 蛋白质序列数据库:
-★SWISS-PROT是对数据人工审读很严格的库。
-http://www.expasy.ch/sprot/
-
-
-★PROSITE,由专家根据生物知识审编的SWISS-PROT蛋白质序列中有生物意义的位点、模式和轮廓的数据库。
-http://www.expasy.ch/prosite/
-
-★KIND,瑞典斯德哥尔摩生物信息中心维护的非冗余蛋白质序列库。
-ftp://ftp.mbb.ki.se/pub/KIND
-
-★ENZYME,基于命名系统的酶数据库。
-http://www.expasy.ch/enzyme/
-
-★BRENDA,这是一个内容广泛的酶的信息库。
-http://www.brenda.uni-koeln.de/
-
-★SWISS-2DPAGE,由二维聚丙烯酰胺凝胶电泳所确定的蛋白质的参考图谱数据库，包括文本和图象信息，通向其他2D-PAGE数据库的链接等。
-http://www.expasy.ch/ch2d/
-
-★HOBACGEN数据库，包含按家族组织的所有细菌的蛋白质序列，有助于从各种细菌选取同源家族，作多序列联配和构建亲缘树。
-http://pbil.univ-lyon1.fr/databases/hobacgen.html
-
-★PKR,蛋白激酶信息库。
-http://www.sdsc.edu/Kinases/pkr/pkk_catalytic/pk_cat_list.html
-
-★Wnt基因网页。
-
-★PhosphoBase,磷酸化位点数据库。
-http://www.cbs.dtu.dk/databases/PhosphoBase/
-
-
-### 蛋白质结构和分类数据库:
-★ RCSB,结构生物信息学信息学合作研究组织。
-http://www.rcsb.org/
-
-
-★ PDBFinder,在PDB、DSSP、HSSP、基础上建立的二级库，包含PDB序列、作者、R因子、分辨率、二级结构等。
-
-ftp://swift/embl-heidelberg.de/pdbfinder
-
-★ BioMagResBank简称BMRB，是关于多肽、蛋白质和核酸的核磁共振数据库。
-http://www.bmrb.wisc.edu/
-
-★ NRL-3D,三维结构已经确定的蛋白质序列库。
-http://www.gdb.org/Dan/proteins/nr13d.html
-
-★ SMART是简单模块构架搜索工具的缩写。
-http://SMART.embl-heidelberg.de/
-
-★ MMDB蛋白质分子模型数据库。
-http://www.ncbi.nlm.nih.gov/Structure/
-
-
-★ INFOGENE,Sanger中心计算基因组学小组维护的、各基因组测序计划所提供的序列中已知的蛋白质和预测出的基因与蛋白质的数据库。
-http://genomic.sanger.ac.uk/inf/infodb.html
-
-★ TMBase,跨膜蛋白数据库。
-ftp://ulrec3.unil.ch/pub/tmbase
-
-★ InterPro,集成的蛋白质结构域和功能位点数据库。
-http://www.ebi.ac.uk/interpro/
-
-
-★ PFAM高质量的蛋白质结构域家族数据库。
-http://www.sanger.ac.uk/Sorfware/Wise2/
-
-★ GLYCBASE,蛋白质糖基化位点数据库。
-http://www.cbs.dtu.dk/databases/OGLYCBASE/
-
-★ ORDB嗅觉受体蛋白质序列数据库。
-http://ycmi.med.yale.edu/senselab/ordb/
-
-★ CarbBank亦称CCSD，复杂碳水化合物结构数据库，通常与蛋白质结构数据库归在一起。
-http://www.ccrc.uga.edu
-
-★ SWISS-3DIMAGE,蛋白质三维图象和PDB浏览器。
-http://www.expasy.ch/sw3d/
-
-★ MolMovDB,耶鲁大学的生物信息学研究室维护的分子运动数据库。
-http://bioinfo.mbb.yale.edu/MolMovDB/
-
-
-比较基因组学和蛋白质组学数据库:
-★COG直系同源聚类数据库。
-http://www.ncbi.nlm.nih.gov/COG/
-
 
 基因表达数据库:
 ★Flyview,果蝇基因表达数据库。
@@ -391,31 +355,7 @@ Entrez
 http://www.ncbi.nlm.nih.gov/Entrez
 OMIM
 
-蛋白质组学相关信息分析
-SWISS-2DPAGE
-http://us.expasy.org/ch2d/
-SIENA-2DPAGE
-http://www.bio-mol.unisi.it/2d/2d.html
-Human 2D-PAGE Databases
-PROSITE
-http://us.expasy.org/prosite/
-PRINTS
-Pfam
-http://www.sanger.ac.uk/Software/Pfam/
-Blocks
-SWISS-PROT蛋白质序列库
-http://us.expasy.org/sprot/
 
-大分子结构模拟和药物设计生物信息分析
-PDB
-SCOP
-http://scop.mrc-lmb.cam.ac.uk/scop/
-CATH
-SWISS-3DIMAGE
-http://us.expasy.org/sw3d/
-DSSP
-
-PDBsum
 
 核酸序列的预测分析
 1. 重复序列分析
