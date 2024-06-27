@@ -24,7 +24,11 @@ There are some dependency problems. So, conda would be the easist way to get thi
 conda install -c bioconda sra-tools
 ```
 
-I tried it at 2023/11/29. It could download 2.8 automatically but `prefetch` ==doesn't work==. So, please use the way below.
+==Don't install it with BioConda!!!==
+==Don't install it with BioConda!!!==
+==Don't install it with BioConda!!!==
+
+I tried it at 2023/11/29 and 2024/06. It could download 2.8 automatically but `prefetch` ==doesn't work==. So, please use the way below.
 
 Or download and configure
 
@@ -55,9 +59,50 @@ After that, save your change and you can use sratools, now.
 
 
 ## SRA data download
+
 ```bash
 prefetch  --ascp-path "/usr/bin/ascp|/home/ken/.aspera/connect/etc/asperaweb_id_dsa.putty" ERR02559
 ```
+
+## sra to fastq
+
+`fastq-dump` is a command-line utility within the SRA Toolkit that converts SRA (Sequence Read Archive) files into FASTQ format. FASTQ is a widely used file format for storing nucleotide sequences along with their quality scores. This tool allows researchers to extract and utilize raw sequencing data from SRA databases for further analysis.
+
+```bash
+fastq-dump --split-files --gzip SRRXXXXXXX
+```
+
+The `--split-files` argument in `fastq-dump` is specifically related to paired-end sequencing data. It splits the output into two FASTQ files, one for each read of the pair (e.g., `your_file_1.fastq` and `your_file_2.fastq`). It was suggested to add the `--split-3` parameter at the same time so the unpaired reads could go to the `*.fastq` file, while the paired reads would go to the `*_1.fastq` and `*_2.fastq`.
+
+If you are handling single-end sequencing data, you can ignore this parameter as it is not needed. The output will be a single FASTQ file containing all the reads.
+
+For third-generation sequencing data (such as those produced by PacBio or Oxford Nanopore technologies), there are a few special considerations and parameters to keep in mind:
+
+1. **PacBio Data**:
+    - Use `--skip-technical` to skip technical reads.
+    - Use `--clip` to remove adapter sequences.
+
+    ```sh
+    fastq-dump --skip-technical --clip your_file.sra
+    ```
+
+2. **Oxford Nanopore Data**:
+    - Use `--readids` to include read IDs in the output.
+    - Use `--minReadLen` to set a minimum read length to filter out shorter reads.
+
+    ```sh
+    fastq-dump --readids --minReadLen 1000 your_file.sra
+    ```
+
+These parameters help in properly extracting and preparing the data for downstream analysis, ensuring that the specific characteristics of third-generation sequencing reads are adequately handled.
+
+
+==Faster??== My sra file is very large, the fastq-dump takes lots of time for single file, is there any way to **speed** it up?
+- Unfortunately, fastq-dump could not run in multiple threads. So, it reach its fast already.
+- Good news is you could also use `fasterq-dump` from the same package which comes from the same tool packs. Here is an example:
+    - `fasterq-dump --split-files --threads 8 your_file.sra`
+
+
 ## For trinity
 ```bash
 fastq-dump --defline-seq '@$sn[_$rn]/$ri' --split-files file.sra

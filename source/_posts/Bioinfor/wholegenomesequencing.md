@@ -170,7 +170,11 @@ Source: muscle tissue of wild male.
 
 
 
-Pig
+### Pig Sscrofa11.1
+
+
+
+Warr A, Affara N, Aken B, et al. An improved pig reference genome sequence to enable pig genetics and genomics research[J]. Gigascience, 2020, 9(6): giaa051.
 
 TJ Tabasco
  corrected and assembled using Falcon (v.0.4.0)

@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://karobben.github.io/2024/06/26/Bioinfor/NextDenovo/</loc>
+    <lastmod>2024-06-27</lastmod>
+  </url>
+  <url>
+    <loc>https://karobben.github.io/2024/06/17/Bioinfor/wholegenomesequencing/</loc>
+    <lastmod>2024-06-26</lastmod>
+  </url>
+  <url>
+    <loc>https://karobben.github.io/2020/07/28/Bioinfor/sratools/</loc>
+    <lastmod>2024-06-26</lastmod>
+  </url>
+  <url>
     <loc>https://karobben.github.io/2024/06/24/Bioinfor/IgCaller/</loc>
     <lastmod>2024-06-25</lastmod>
   </url>
   <url>
     <loc>https://karobben.github.io/2024/06/21/Bioinfor/MUMmer/</loc>
-    <lastmod>2024-06-24</lastmod>
-  </url>
-  <url>
-    <loc>https://karobben.github.io/2024/06/17/Bioinfor/wholegenomesequencing/</loc>
     <lastmod>2024-06-24</lastmod>
   </url>
   <url>
@@ -1842,10 +1850,6 @@
   </url>
   <url>
     <loc>https://karobben.github.io/2022/08/18/Bioinfor/snpfun/</loc>
-    <lastmod>2024-01-12</lastmod>
-  </url>
-  <url>
-    <loc>https://karobben.github.io/2020/07/28/Bioinfor/sratools/</loc>
     <lastmod>2024-01-12</lastmod>
   </url>
   <url>
